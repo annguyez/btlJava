@@ -1,0 +1,100 @@
+﻿/*Các xử lý kĩ thuật cho responsived*/
+
+/*----------------ROWs------------------*/
+.row, .row-heading, .row-top, .row-bottom{
+	width:100%;
+	padding:5px 0;
+}
+
+.row-heading{
+	padding:12px 0;
+	background:#aaa;
+	color:#fff;
+	font:bold 16px tahoma;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+.row-top{
+	border-top:1px solid #aaa;
+}
+
+.row-bottom{
+	border-bottom:1px solid #aaa;
+}
+
+.row-buttons{
+	border-top:1px solid #aaa;
+	text-align:center;
+	padding:15px 0;
+}
+
+/*----------------COLs------------------*/
+
+.c1, .c2, .c3, .c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12{
+	float:left;
+	padding:1px 0;
+	position: relative;
+}
+.c1{width:8.33%;}
+.c2{width:16.67%;}
+.c3{width:25%;}
+.c4{width:33.33%;}
+.c5{width:41.67%;}
+.c6{width:50%;}
+.c7{width:58.33%;}
+.c8{width:66.67%;}
+.c9{width:75%;}
+.c10{width:83.33%;}
+.c11{width:91.67%;}
+.c12{width:100%;}
+
+
+
+/*----------------SPEs------------------*/
+
+
+.clr{clear:both;}
+.aleft{text-align:left;}
+.acenter{text-align:center;}
+.aright{text-align:right;}
+
+/*----------------LABELs------------------*/
+.labels span{
+	text-align:right;
+	font-weight:bold;
+	display: block;
+	padding-right: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+
+
+/*----------------FIELDs------------------*/
+
+.fields input, .fields textarea, .fields select{
+	width:80%;
+	
+}
+
+.fields iframe{
+	width:95%;
+	border:1px solid #aaa;
+	border-radius:5px;
+}
+.fields label{
+	display: inline-block;
+	padding-top: 6px;
+}
+
+.roles input{
+	width:auto;
+}
+
+
+
+
+
+
+
